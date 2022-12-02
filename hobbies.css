@@ -13,6 +13,31 @@ div.main-container {
     padding-bottom: 20px;
 }
 
+.hobby-gallery {
+    display: grid;
+    grid-template-columns: 400px 480px;
+}
+
+h3{
+    background-color: #9CD3D9; 
+    padding: 5px; 
+    border: 1px solid #9CD3D9;
+}
+
+figure {
+    margin: 0 0;
+}
+
+figure img {
+    height: 400px;
+    width: auto;
+}
+
+div.hobby-gallery p {
+    margin-top: 68px;
+    text-align: justify;
+}
+
 .nav-container {
     float: left;
     width: 10%;
