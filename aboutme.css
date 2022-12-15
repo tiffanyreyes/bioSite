@@ -4,47 +4,47 @@ body {
     background-color: #F2E5D5;
 }
 
+header {
+    background-color: #D97A43;
+    color: white;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 94px auto;
+  }
+
 div.main-container {
     background-color: white;
-    padding-inline: 20px;
-    float: left;
-    margin-top: 75px;
-    width: 85%;
-    padding-bottom: 20px;
+    width: auto;
+    padding-left: 8em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
-
-div.facts-container{
-    background-color: white;
-    float: left;
-    margin-top: 75px;
-    width: 100%;
-    padding-bottom: 20px;
-}
-
-.nav-container {
-    float: left;
-    width: 10%;
-}
-
-ul.navbar {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
+  
 h1 {
     font-family: 'Barlow', 'Lato', 'Raleway', sans-serif;
-}
-
-ul.navbar li {
-    background: #D97A43;
-    padding: 1em;
-    border-bottom: 1px solid white;
-}
-
-ul.navbar a {
+    font-weight: 400;
+  }
+  
+#navbar {
+    overflow: hidden;
+    background-color: rgba(217, 122, 67, 0.9);
+    border-bottom: solid 15px #9CD3D9;
+  }
+  
+#navbar a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-}
+  }
+  
+#navbar a:hover {
+    background-color: #F2B749;
+    color: white;
+  }
+  
 
 a:link {
     color: white;
@@ -64,11 +64,20 @@ address {
     border-top: thin dotted;
 }
 
+.about-me-container {
+    display: grid;
+    grid-template-columns: 300px auto;
+    column-gap: 1em;
+}
+
+
+#first-paragraph {
+    margin-block-start: 0;
+}
+
 #Miguel {
-    width: 15%;
+    width: 300px;
     height: auto;
-    float: left;
-    margin-right: 8px;
 }
 
 #first-sentence {
@@ -77,11 +86,11 @@ address {
 }
 
 table {
-    width: 100%;
+    width: auto;
     line-height: 32px;
 }
 
 tr:nth-child(odd) {
-    background-color: #9CD3D9;
+    background-color: #F2B749;
     line-height: 32px;
 }

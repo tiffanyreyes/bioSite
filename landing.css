@@ -1,41 +1,59 @@
 body {
   font-family: 'Barlow', 'Lato', 'Raleway', sans-serif;
   color: #262626;
+  font-size: 16px;
   background-color: #F2E5D5;
+}
+
+head title {
+  font-family: 'Barlow', 'Lato', 'Raleway', sans-serif;
+  font-size: 20px;
+  font-stretch: normal;
+}
+
+header {
+  background-color: #D97A43;
+  color: white;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 94px auto;
+}
+
+p {
+  font-size: 18px;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: rgba(217, 122, 67, 0.9);
+  border-bottom: solid 15px #9CD3D9;
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: #F2B749;
+  color: white;
 }
 
 div.main-container {
   background-color: white;
-  padding-inline: 20px;
-  float: left;
-  margin-top: 75px;
-  width: 85%;
-  padding-bottom: 20px;
-}
-
-.nav-container {
-  float: left;
-  width: 10%;
-}
-
-ul.navbar {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+  width: auto;
+  padding-left: 8em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 h1 {
   font-family: 'Barlow', 'Lato', 'Raleway', sans-serif;
-}
-
-ul.navbar li {
-  background: #D97A43;
-  padding: 1em;
-  border-bottom: 1px solid white;
-}
-
-ul.navbar a {
-  text-decoration: none;
+  font-weight: 400;
 }
 
 a:link {
@@ -46,10 +64,6 @@ a:visited {
   color: white;
 }
 
-a:hover {
-  color: #F2B749;
-}
-
 address {
   margin-top: 1em;
   padding-top: 1em;
@@ -57,21 +71,64 @@ address {
 }
 
 #cs {
-  width: 25%;
+  width: 300px;
   height: auto;
-  float: left;
-  margin-right: 8px;
 }
 
 #music {
-  width: 25%;
+  width: 300px;
   height: auto;
-  float: left;
-  margin-right: 8px;
 }
 
 #UO {
-  width: 25%;
+  width: 300px;
   height: auto;
-  float: left;
+}
+
+.first-container {
+  display: grid;
+  grid-template-columns: 500px 400px;
+  grid-gap: 2em;
+}
+
+.first-container .text-summary {
+  border: 2px solid #F2B749;
+  padding: 1em;
+  border-radius: 8px;
+}
+
+.first-container img {
+  border-radius: 8px;
+}
+
+.second-container {
+  display: grid;
+  grid-template-columns: 400px 500px;
+  grid-gap: 2em;
+}
+
+.second-container .text-summary {
+  border: 2px solid #F2B749;
+  padding: 1em;
+  border-radius: 8px;
+}
+
+.second-container img {
+  border-radius: 8px;
+}
+
+.third-container {
+  display: grid;
+  grid-template-columns: 500px 400px;
+  grid-gap: 2em;
+}
+
+.third-container .text-summary {
+  border: 2px solid #F2B749;
+  padding: 1em;
+  border-radius: 8px;
+}
+
+.third-container img {
+  border-radius: 8px;
 }
