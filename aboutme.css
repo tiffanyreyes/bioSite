@@ -84,12 +84,7 @@ address {
     font-weight: bold;
 }
 
-table {
-    width: auto;
-    line-height: 32px;
-}
-
-tr:nth-child(odd) {
+.q {
     background-color: #F2B749;
     line-height: 32px;
 }
